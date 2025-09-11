@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    font-family: Arial, sans-serif;
+}
+h3 {
+      color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.score{
+    background: #080001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 140px;
+    height: 100px;
+    margin: 20px 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 8px;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button {
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+button:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controls {
+    margin-top: 25px;
+}
+
+.winner {
+    border: 5px solid yellow;
+    box-shadow: 0px 0px 15px gold;
+}
+
+.controls button {
+    background: #9AABD8;
+    color: #1B244A;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: whitesmoke;
+    color: #1B244A;
+}
