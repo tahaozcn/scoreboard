@@ -1,36 +1,39 @@
 <html>
-    <head>
-        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="column">
-                <h3 >HOME</h3>
-                <h2 id = "home-score" class="score">0</h2>
+
+<head>
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <h3>HOME</h3>
+            <h2 id="home-score" class="score">0</h2>
             <div>
-                <button  onclick="IncreaseScore('home', 1)"> +1</button>
-                <button  onclick="IncreaseScore('home', 2)"> +2</button>
-                <button  onclick="IncreaseScore('home', 3)"> +3</button>
-            </div> 
-         </div>
-            <div class="column">
-                <h3>GUEST</h3>
-                <h2 id= "guest-score" class="score">0</h2>
-                 <div>
+                <button onclick="IncreaseScore('home', 1)"> +1</button>
+                <button onclick="IncreaseScore('home', 2)"> +2</button>
+                <button onclick="IncreaseScore('home', 3)"> +3</button>
+            </div>
+        </div>
+        <div class="column">
+            <h3>AWAY</h3>
+            <h2 id="guest-score" class="score">0</h2>
+            <div>
                 <button onclick="IncreaseScore('guest', 1)"> +1</button>
                 <button onclick="IncreaseScore('guest', 2)"> +2</button>
                 <button onclick="IncreaseScore('guest', 3)"> +3</button>
             </div>
-            </div>
         </div>
-        <div class="controls">
-            
-            <button onclick="newGame()">New Game</button>
-            
-            
-        </div>
-        
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <div class="controls">
+
+        <button onclick="newGame()">New Game</button>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
